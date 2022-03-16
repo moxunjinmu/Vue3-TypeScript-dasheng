@@ -1,8 +1,10 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "node": true
     },
+    "parser": "vue-eslint-parser",
     "extends": [
         "eslint:recommended",
         "plugin:vue/essential",
